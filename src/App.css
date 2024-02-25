@@ -13,6 +13,11 @@
   }
 }
 
+.mainContainer {
+  width: 80%;
+  margin: auto;
+}
+
 .App-header {
   align-items: stretch;
   min-height: 3.25rem;
@@ -39,8 +44,8 @@ a:hover, a:active{
 }
 
 .logo {
-  height: 100px;
-  padding: 20px;
+  height: 50px;
+  padding: 10px;
   float: left;
 }
 
@@ -54,40 +59,47 @@ a:hover, a:active{
 }
 
 .avatar {
-  height: 500px;
+  height: 300px;
+  float: left;
+  padding: 20px;
 }
 
 /* //container */
 
 .container {
-  height: 450px;
+  height: 350px;
   background-color: #3698f4;
   display: flex;
+  width: 100%;
 }
 
 .heroContainer {
   color: white;
-  width: 60%;
+  width: 50%;
+  margin: auto;
 }
 
 .heroName {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .heroRole {
-  font-size: 50px;
+  font-size: 30px;
 }
 .heroDesc {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .heroProjects {
   color: #3698f4;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
 }
 
+.Footer {
+  text-align: center;
+}
 
 @keyframes App-logo-spin {
   from {

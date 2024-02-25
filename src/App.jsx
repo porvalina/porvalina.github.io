@@ -29,7 +29,7 @@ const ProjectsSection = () => (
 );
 
 const PortfolioApp = () => (
-  <>
+  <div className='mainContainer'>
     <Header />
     <LandingSection />
     <Container>
@@ -37,7 +37,7 @@ const PortfolioApp = () => (
       <SertificateSection />
     </Container>
     <Footer />
-  </>
+  </div>
 );
 
 export default PortfolioApp;

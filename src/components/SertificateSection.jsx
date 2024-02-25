@@ -15,7 +15,7 @@ function SertificateList({ data }) {
 
 const SertificateSection = () => (
   <section id="sertificates">
-    <h2 className='heroSertificates'>IT Skills</h2>
+    <h2 className='heroProjects'>IT Skills</h2>
     <SertificateList data={sertificates}/>
   </section>
 );

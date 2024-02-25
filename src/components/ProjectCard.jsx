@@ -28,12 +28,12 @@ export default function ProjectCard({title, img, description, role, technologies
         <Typography variant="body2" color="text.secondary">
           {description}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        { role ? (<Typography variant="body2" color="text.secondary">
           Role: {role}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
+        </Typography>) : null}
+        { role ? (<Typography variant="body2" color="text.secondary">
           Techs: {technologies}
-        </Typography>
+        </Typography>) : null}
       </CardContent>
     </Card>
   );
