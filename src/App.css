@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: stretch;
+  min-height: 3.25rem;
+  width: 100%;
+  display: inline-block;
+}
+
+ul li{
+  display: inline-block;
+}
+
+a:link {
+  text-decoration: none;
+  /* background-color: #3698f4; */
+  color: #3698f4;
+  padding: 14px 25px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+a:hover, a:active{
+  background-color: #3698f4;
+  color: white;
+}
+
+.logo {
+  height: 100px;
+  padding: 20px;
+  float: left;
+}
+
+.social {
+  float: left;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.avatar {
+  height: 500px;
+}
+
+/* //container */
+
+.container {
+  height: 450px;
+  background-color: #3698f4;
+  display: flex;
+}
+
+.heroContainer {
+  color: white;
+  width: 60%;
+}
+
+.heroName {
+  font-size: 60px;
+}
+
+.heroRole {
+  font-size: 50px;
+}
+.heroDesc {
+  font-size: 25px;
+}
+
+.heroProjects {
+  color: #3698f4;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
