@@ -7,7 +7,7 @@ function SertificateList({ data }) {
   return (
     <div>
       <Grid container spacing={2}>
-        {data.map(i => <Grid item xs={4}><ProjectCard {...i} /></Grid>)}
+        {data.map(i => <Grid item sm={4} xs={12}><ProjectCard {...i} /></Grid>)}
       </Grid>
     </div>
   );
