@@ -13,7 +13,7 @@ export default () => (
             Alina Porval
           </Typography>
           <Typography sx={{ typography: { xs: 'h5', sm: 'h3' } }}>
-            Front End Developer
+            Full-Stack Developer
           </Typography>
         </Stack>
         <Stack justifyContent="center" spacing={2} style={{padding: 5}}>
